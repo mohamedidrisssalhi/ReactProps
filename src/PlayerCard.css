@@ -1,0 +1,56 @@
+.vertical-card {
+    width: 250px;
+    height: 400px; 
+    background: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+.player-image {
+    width: 100%;
+    height: 60%; 
+    object-fit: cover;
+}
+
+.player-info {
+    flex: 1; 
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+.player-info h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.divider {
+    width: 90%; 
+    height: 1px;
+    background-color: #ccc; 
+    margin: 10px auto; 
+}
+
+.stats {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem;
+}
+
+.vertical-card {
+    transition: transform 0.3s ease; /* Smooth animation */
+}
+
+.vertical-card:hover {
+    transform: scale(1.1); /* Enlarges the entire card */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Adds depth with a shadow */
+}
+
+
